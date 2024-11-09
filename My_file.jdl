@@ -1,0 +1,18 @@
+application {
+    config {
+        baseName badboy,
+        applicationType monolith,
+        databaseType sql,
+        buildTool maven,
+        clientFramework react,
+        cacheProvider ehcache,
+        testFrameworks [cucumber],
+        enableSwaggerCodegen true,
+        enableHibernateCache true,
+        jwtSecretKey "mySecretKey",
+        serviceDiscoveryType eureka,
+        enableTranslation true,
+        websocket spring-websocket,
+        clientPackageManager npm,
+    }
+}

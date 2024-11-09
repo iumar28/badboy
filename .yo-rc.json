@@ -1,0 +1,23 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "baseName": "badboy",
+    "buildTool": "maven",
+    "cacheProvider": "ehcache",
+    "clientFramework": "react",
+    "clientPackageManager": "npm",
+    "databaseType": "sql",
+    "devServerPort": 9060,
+    "enableHibernateCache": true,
+    "enableSwaggerCodegen": true,
+    "enableTranslation": true,
+    "entities": [],
+    "jhipsterVersion": "8.7.1",
+    "jwtSecretKey": "mySecretKey",
+    "languages": ["en"],
+    "nativeLanguage": "en",
+    "serviceDiscoveryType": "eureka",
+    "testFrameworks": ["cucumber"],
+    "websocket": "spring-websocket"
+  }
+}
